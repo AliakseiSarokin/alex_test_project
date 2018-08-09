@@ -1,0 +1,24 @@
+{
+  "name": "alex_test_project",
+  "version": "1.0.0",
+  "description": "my_test_project",
+  "main": "conf.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliakseiSarokin/alex_test_project.git"
+  },
+  "keywords": [
+    "alex",
+    "test",
+    "my project"
+  ],
+  "author": "Aliaksei Sarokin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliakseiSarokin/alex_test_project/issues"
+  },
+  "homepage": "https://github.com/AliakseiSarokin/alex_test_project#readme"
+}
