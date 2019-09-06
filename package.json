@@ -4,7 +4,11 @@
   "description": "my_test_project",
   "main": "conf.js",
   "scripts": {
-    "test": "test"
+    "prets": "webdriver-manager update",
+    "ts": "tsc",
+    "pretest": "npm run ts",
+    "test": "protractor compiled/conf.js",
+    "allure": "allure generate allure-results --clean -o allure-report"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/AliakseiSarokin/alex_test_project/issues"
   },
-  "homepage": "https://github.com/AliakseiSarokin/alex_test_project#readme"
+  "homepage": "https://github.com/AliakseiSarokin/alex_test_project#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "allure-commandline": "^2.9.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.0.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.4.0",
+    "protractor": "^5.4.2"
+  }
 }
